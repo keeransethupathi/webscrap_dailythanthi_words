@@ -42,7 +42,7 @@ def get_url(url):
         urls.extend(urls2)
     return urls
 
-# 
+# extract unique tamil words 
 
 def Tamilwebscraping(url):
     def webscraping(url):
