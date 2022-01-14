@@ -58,7 +58,7 @@ def Tamilwebscraping(url):
             frequency[word] = 1 + frequency.get(word,0)
         return list(frequency)
     
-    v = url[1:100]
+    v = url
     y = []
     for x in v:
         y.extend(webscraping(x))
